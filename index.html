@@ -2,14 +2,23 @@
 <html lang="en">
 
 <head>
+        <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link href="css/styles.css" rel="stylesheet">
+
     <title>Covid19 in Greece</title>
 </head>
 
 <body>
 
-    <header>
-        <div>
-            <div>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
                 <div>
                     <h1>Covid19 in Greece</h1>
                     <h1>The Big Picture</h1>
@@ -20,8 +29,8 @@
         </div>
     </header>
 
-    <div>
-        <div>
+    <div class="container">
+        <div class="row row-content align-items-center">
 
             <div>
                 <h2>What is this site about?</h2>
@@ -30,12 +39,12 @@
         </div>
 
 
-        <div>
+        <div class="row row-content align-items-center">
 
 
         </div>
 
-        <div>
+        <div class="row row-content align-items-center">
             <div>
                 <h2>About the creator</h2>
             </div>
@@ -46,12 +55,12 @@
         </div>
     </div>
 
-    <footer>
-        <div>
-            <div>             
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
                 <div>
                     <h5>Links</h5>
-                    <ul>
+                    <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Analysis</a></li>
                         <li><a href="#">Timeline</a></li>
@@ -73,7 +82,7 @@
                    </adress>
                 </div>
                 <div>
-                    <div>
+                    <div class="col col-sm-4 align-self-center" style="text-align:center">
                         <a href="http://google.com/+">Google+</a>
                         <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
                         <a href="http://www.linkedin.com/in/">LinkedIn</a>
@@ -84,12 +93,18 @@
                 </div>
            </div>
            <div>             
-                <div>
+                <div class="row justify-content-center">
                     <p> &copy; Copyright 2020 Covid19 in Greece - The Big Picture</p>
                 </div>
            </div>
         </div>
     </footer>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
